@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <!---Name-->
+        <div>
+            <label for="name">Username</label>
+            <input placeholder="Enter username" id="name" name="name"/>
+        </div>
+        <!--Email-->
+        <div>
+            <label for="email">Email ID</label>
+            <input placeholder="Enter emailID" id="email" type="email" name="email"/>
+        </div>
+        <!--Phone-->
+        <div>
+            <label for="phone">Phone</label>
+            <input placeholder="Enter phoneNo" id="phone" name="phno"/>
+        </div>
+        <!--Degree-->
+        <div>
+            <label for="degree">Degree</label>
+            <select id="degree" name="degree">
+                <option>--</option>
+                <option value="id1">BA</option>
+                <option value="id2">MBA</option>
+                <option value="id3">Btech</option>
+            </select>
+        </div>
+        <!--DOB-->
+        <div>
+            <label for="date">DOB</label>
+            <input type="date" name="DOB"/>
+        </div>
+        <!--Gender-->
+        <div>
+            <span id="gender">Gender</span>
+            <div>
+                <label>Female</label>
+                <input type="radio" name="gender" value="F" name="gender"/>
+                <label>Male</label>
+                <input type="radio" name="gender" value="M" name="gender"/>
+                <label>Others</label>
+                <input type="radio" name="gender" value="O" name="gender"/>
+            </div>
+        </div>
+        <!--Course Shift-->
+        <div>
+            <span>Course Slot</span>
+            <div>
+                <label>Morning</label>
+                <input type="checkbox" value="morn" name="Slot"/>
+                <label>Evening</label>
+                <input type="checkbox" value="Eve" name="Slot"/>
+            </div>
+        </div>
+        <!--Profilephoto-->
+        <div>
+            <label>Profile Picture</label>
+            <input type="file" accept=".jpg,.png,.pdf" name="image"/>
+        </div>
+        <!--Introduction-->
+        <div>
+            <label>Introduction</label>
+            <textarea name="Intro"></textarea>
+        </div>
+        <!--Submit-->
+        <div>
+            <button>Submit</button>
+        </div>
+    </form>
+</body>
+</html>
